@@ -1,0 +1,41 @@
+.main-content h1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
+    display: none;
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f0f2f7;
+}
+
+.card-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #4a90e2;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.card-meta {
+    font-size: 14px;
+    color: #666666;
+}

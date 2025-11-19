@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ ghi nhớ</title>
+    <link rel = "stylesheet" href = "StudySection_style.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=cards_star" />
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Itim&display=swap">
+</head>
+<body>
+    <header>
+        <span id = "card_type">
+            <span id = "cards_star" class="material-symbols-outlined">cards_star</span>
+            Thẻ ghi nhớ
+        </span>
+        <div id = "title">
+            <span id = "index_card">1/2</span>
+            <span id = "title_content">Loading title</span>
+        </div>
+        <button id = "close_button" onclick = "CloseCard()">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </header>
+    <div class = "flashcard">
+        <div class = "flip_card" onclick = "flipCard()">
+            <div class = "side front">
+                <button class = "edit_button" onclick = "editCard()">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <span class = "card_content">Đang load</span>
+                <span class = "card_footer">Nhấn vào thẻ để lật</span>
+            </div>
+
+            <div class = "side back">
+                <span class = "card_content">Đang tải</span>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <button id = "arrow_left" class = "blur" onclick = "BackCard()">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button id = "arrow_right" class = "arrow" onclick = "NextCard()">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </footer>
+
+    <div class = "overplay">
+        <div class = "modal">
+            <span class = "section-title">Tiêu đề</span>
+            <div class = "describe-container">
+                <span class = "describe">Phần mô tả</span>
+            </div>
+            <button class = "button">OK</button>
+        </div>
+    </div>
+    <script src = "../../assets/Global_JS/database.js"></script>
+    <script src = "StudySection_script.js"></script>
+</body>
+</html>

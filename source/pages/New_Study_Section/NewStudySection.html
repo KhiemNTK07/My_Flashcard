@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo học phần mới</title>
+    <link rel = "stylesheet" href = "NewStudySection_style.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+</head>
+<body>
+    <div class = "container">
+    <h1>Tạo một học phần mới</h1>
+
+    <input type = "text" placeholder="Tiêu đề" class = "flashcard-title">
+    <textarea placeholder="Thêm mô tả" class = "flashcard-describe"></textarea>
+
+    <div class = "form-section">
+        <button class = "form-add">
+            <i class="fas fa-plus"></i>
+            <span>Nhập</span>
+        </button>
+        <button class = "delete-flashcard" onclick = "delete_flashcard()">
+            <i class="fa-solid fa-trash"></i>
+        </button>
+    </div>
+
+    <main id = "flashcard-container">
+    <div class = "flashcard">
+        <div class = "flashcard-header">
+            <span class = "index">1</span>
+            <button class = "delete_button">
+                <i class="fa-solid fa-trash"></i>
+            </button>
+        </div>
+        <div class = "flashcard-box">
+            <label class = "flashcard-terminology">
+                <input type = "text" class = "flashcard-text">
+                <span>Thuật ngữ</span>
+            </label>
+            <label class = "flashcard-define">
+                <input type = "text" class = "flashcard-text">
+                <span>Định nghĩa</span>
+            </label>
+        </div>
+    </div>
+    </main>
+    
+    <button onclick = "add_card()" class = "add-item">
+        <span>Thêm thẻ</span>
+    </button>
+    <button class = "add-flashcard" onclick = "SaveFlashcard()">
+        <span>Tạo và ôn luyện</span>
+    </button>
+    </div>
+    <script src = "../../assets/Global_JS/database.js"></script>
+    <script src = "NewStudySection_script.js"></script>
+</body>
+</html>

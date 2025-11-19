@@ -1,0 +1,134 @@
+*{
+    font-family: Itim, cursive;
+}
+
+body{
+    background-color: #f7f9fb;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.main-content{
+    padding: 20px 40px 20px 60px;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.add-button {
+    background-color: #0250f9;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.add-button:hover{
+    background-color: #003fbc;
+}
+
+.popup-button{
+    position: fixed;
+    top: 78px;
+    right: 50px;
+    display: none;
+    align-items: center;
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.popup-button i{
+    font-size: 24px; 
+    color: #4c5a75; 
+    margin-right: 15px;
+}
+
+.popup-button span{
+    font-weight: 400;
+    color : #4c5a75;
+    text-decoration: none;
+}
+
+.popup-button:hover {
+    background-color: #ebebeb;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 5px 15px;
+    flex-shrink: 0;
+    min-height: 100vh;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+    padding: 0 5px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #4c5a75;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #4c5a75; 
+    border-radius: 8px;
+}
+
+.nav-item i {
+    font-size: 20px;
+    width: 30px;
+}
+
+.nav-item span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Itim, cursive;
+}
+
+.nav-item:hover {
+    background-color: #f0f0f0;
+}
+
+.nav-item.active {
+    background-color: #e6f0ff; 
+    color: #4a90e2; 
+    font-weight: bold;
+}
+
+.nav-item.active i {
+    color: #4a90e2;
+}

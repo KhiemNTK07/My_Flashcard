@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9fbfd;
+}
+
+h1{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 30px;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.flashcard-title{
+    background-color: #f0f2f7;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Itim", cursive;
+    font-size: 16px;
+}
+
+.flashcard-title:focus{
+    background-color: white;
+    border-color:#a7b2ff;
+}
+
+.flashcard-describe{
+    background-color: #f0f2f7;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Itim", cursive;
+    font-size: 16px;
+}
+
+.flashcard-describe:focus{
+    background-color: white;
+    border-color:#a7b2ff;
+}
+
+.form-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-add{
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 10%;
+    height: 30px;
+    background-color: #f0f2f7;
+    font-family: "Itim", cursive;
+    color: #5f5f5f
+}
+
+.form-add:hover{
+    background-color: #e5e8ec;
+}
+
+.delete-flashcard{
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 8%;
+    height: 30px;
+    background-color: #f0f2f7;
+    font-family: "Itim", cursive;
+    color: #5f5f5f
+}
+
+.delete-flashcard:hover{
+    background-color: #e5e8ec;
+}
+
+.flashcard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #fbfdff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #0000000d;
+}
+
+.flashcard-box{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.flashcard-text{
+    background-color: #f0f2f7;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Itim", cursive;
+    font-size: 16px;
+}
+
+.flashcard-text:focus{
+    background-color: white;
+    border-color:#a7b2ff;
+}
+
+.flashcard-box label{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.flashcard-box span{
+    font-family: "Itim", cursive;
+}
+.flashcard-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flashcard-header span{
+    font-family: "Itim", cursive;
+}
+
+.flashcard-header button{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.flashcard-header button i{
+    font-size: 15px;
+    color: #7d7dff;
+}
+
+.flashcard-header button i:hover{
+    color: red;
+}
+
+.add-item{
+    background-color: #f0f2f7;
+    border: 2px solid transparent;
+    width: 15%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Itim", cursive;
+    color: #484848;
+    margin: 10px auto;
+}
+
+.add-item:hover{
+    background-color: #e5e8ec;
+}
+
+.add-flashcard{
+    background-color: #4242ff;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Itim", cursive;
+    color: white;
+    margin-left: auto;
+}
+
+.add-flashcard:hover{
+    background-color: blue;
+}
