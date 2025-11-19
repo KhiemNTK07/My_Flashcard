@@ -23,7 +23,7 @@ function updateCardNumbers(){
     }
 }
 
-function delete_flashcard(){
+function delete_AllCard(){
     const CardArray = document.querySelectorAll("#flashcard-container .flashcard");
     for (let i = 0; i < CardArray.length; i++){
         if (i == 0){
@@ -44,9 +44,6 @@ function SaveFlashcard(){
     }
     const flashcard_describe = document.querySelector(".flashcard-describe").value;
     const CardArray = document.querySelectorAll("#flashcard-container .flashcard");
-    const tx = db.transaction("flashcardStore", "readwrite");
-    const store = tx.objectStore("flashcardStore");
-    
     for (let card of CardArray){
         const term = card.querySelector(".flashcard-terminology .flashcard-text").value;
         const definition = card.querySelector(".flashcard-define .flashcard-text").value;
@@ -56,6 +53,8 @@ function SaveFlashcard(){
         }
     }
 
+    const tx = db.transaction("flashcardStore", "readwrite");
+    const store = tx.objectStore("flashcardStore");
     store.add({SectionTitle, flashcard_describe});
     for (let card of CardArray){
         const term = card.querySelector(".flashcard-terminology .flashcard-text").value;

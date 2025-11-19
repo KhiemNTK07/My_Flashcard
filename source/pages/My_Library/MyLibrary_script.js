@@ -11,7 +11,7 @@ function deleteFlashcardsBySection(section) {
             cursor.continue();
         }
         // else{
-        //     console.log("Đã xoá xong rồi nhá, cook thôi");
+        //     
         // }
     };
 }
