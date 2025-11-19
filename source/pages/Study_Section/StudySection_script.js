@@ -114,7 +114,7 @@ function CloseCard(){
         history.back();
     }
     else{
-        window.location.assign("../Home/home.html");
+        window.location.assign("../Home/index.html");
     }
 }
 
