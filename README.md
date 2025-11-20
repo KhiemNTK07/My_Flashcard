@@ -3,6 +3,7 @@
 Một ứng dụng web thẻ ghi nhớ được thiết kế để giúp người dùng ghi nhớ thuật ngữ, khái niệm, từ vựng thông qua giao diện tương tác và thân thiện với người dùng. Được xây dựng bằng HTML, CSS và JavaScript thuần, dự án này cung cấp một công cụ học tập dễ sử dụng nhưng hiệu quả.
 
 🚀 Demo
+---
 
 Dự án đã được demo trực tiếp tại: [My Flashcard Web](https://khiemntk07.github.io/My_Flashcard/)
 ---
