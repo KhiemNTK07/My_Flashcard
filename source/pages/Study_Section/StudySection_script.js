@@ -114,7 +114,7 @@ function CloseCard(){
         history.back();
     }
     else{
-        window.location.assign("../../../../index.html");
+        window.location.assign("/My_Flashcard/index.html");
     }
 }
 
