@@ -23,6 +23,7 @@ Một ứng dụng web thẻ ghi nhớ được thiết kế để giúp ngườ
 
 ## Cấu trúc thư mục
 
+```
 My_Flashcard/
 ├── index.html                          # Trang chủ
 ├── README.md                           # Tài liệu hướng dẫn, mô tả dự án
@@ -50,7 +51,7 @@ My_Flashcard/
             ├── StudySection.html
             ├── StudySection_style.css
             └── StudySection_script.js
-
+```
 
 ---
 
