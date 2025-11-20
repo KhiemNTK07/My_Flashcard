@@ -24,32 +24,33 @@ Một ứng dụng web thẻ ghi nhớ được thiết kế để giúp ngườ
 ## Cấu trúc thư mục
 
 My_Flashcard/
-├── index.html                                  # Trang chủ
-├── README.md                                   # Tài liệu hướng dẫn, mô tả dự án
-├── source/                                     # Source code của dự án
-│   └── assets/                                 # Tài nguyên dùng chung
-|       └── Global_CSS/                         # CSS dùng chung
-|           ├── Menu_PlusButton.css             
-|       └── Global_JS/                          # Script dùng chung
-│           ├── database.js
-│           ├── StudySection_PlusButton.js
-│           ├── updateSections.js               
-│   └── pages/                                  # 4 trang chính của website
-|       └── Home/                               # Trang chủ
-|           ├── home_style.cs
-|           ├── home_script.js
-|       └── My_Library/                         # Trang thư viện
-|           ├── MyLibrary.html
-|           ├── MyLibrary_style.css
-|           ├── MyLibrary_script.js
-|       └── New_Study_Section/                  # Trang tạo học phần
-|           ├── NewStudySection.html
-|           ├── NewStudySection_style.css
-|           ├── NewStudySection_script.js
-|       └── Study_Section/                      # Trang thẻ ghi nhớ cho các học phần
-|           ├── StudySection.html
-|           ├── StudySection_style.css
-|           ├── StudySection_script.js         
+├── index.html                          # Trang chủ
+├── README.md                           # Tài liệu hướng dẫn, mô tả dự án
+└── source/                             # Source code của dự án
+    ├── assets/                         # Tài nguyên dùng chung
+    │   ├── Global_CSS/                 # CSS dùng chung
+    │   │   └── Menu_PlusButton.css
+    │   └── Global_JS/                  # Script dùng chung
+    │       ├── database.js
+    │       ├── StudySection_PlusButton.js
+    │       └── updateSections.js
+    └── pages/                           # 4 trang chính của website
+        ├── Home/                        # Trang chủ
+        │   ├── home_style.css
+        │   └── home_script.js
+        ├── My_Library/                  # Trang thư viện
+        │   ├── MyLibrary.html
+        │   ├── MyLibrary_style.css
+        │   └── MyLibrary_script.js
+        ├── New_Study_Section/           # Trang tạo học phần
+        │   ├── NewStudySection.html
+        │   ├── NewStudySection_style.css
+        │   └── NewStudySection_script.js
+        └── Study_Section/               # Trang thẻ ghi nhớ cho các học phần
+            ├── StudySection.html
+            ├── StudySection_style.css
+            └── StudySection_script.js
+
 
 ---
 
