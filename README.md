@@ -21,6 +21,19 @@ Một ứng dụng web thẻ ghi nhớ được thiết kế để giúp ngườ
 
 ---
 
+## Hướng dẫn sử dụng
+
+1. Mở trình duyệt và truy cập link demo ở README 
+2. Nhấn vào nút dấu cộng ở góc phải màn hình để tạo học phần
+3. Thêm tiêu đề cho học phần, thêm các ô và viết đầy đủ thuật ngữ và định nghĩa cho từng ô
+4. Nút xoá màu xanh ở từng các góc phải ô là để xoá ô đó. Nút xoá màu xám ở dưới ô mô tả để xoá tất cả các ô ghi nhớ
+5. Nhấn nút xanh ở dưới cùng để tạo học phần
+6. Các học phần được thêm vào trang chủ, nhấn vào học phần mà bạn muốn để ôn luyện
+7. Tương tác với thẻ nhớ bằng cách click để lật thẻ
+8. Sử dụng các nút điều hướng để chuyển giữa các thẻ
+
+---
+
 ## Cấu trúc thư mục
 
 ```
@@ -59,6 +72,7 @@ My_Flashcard/
 - 🛠️ Cải thiện giao diện cho người dùng
 - ☹️ Web còn tình trạng xử lí dữ liệu chậm khi điều hướng trang
 - ⚠️ Web có những bug tiềm ẩn cho giao diện mà chưa kịp xử lí khiến người dùng khó chịu
+- 🛠️ Thêm chức năng sửa học phần
 - ✨ Thêm tính năng nhập dữ liệu văn bản để tạo flashcard nhanh chóng
 - 🔧 Thêm backend để lưu trữ flashcard
 - ⚙️ Thêm tính năng dark mode cho giao diện
