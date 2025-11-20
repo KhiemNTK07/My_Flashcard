@@ -17,7 +17,7 @@ Một ứng dụng web thẻ ghi nhớ được thiết kế để giúp ngườ
 - 🌟 Tạo, sửa, xóa các flashcard.  
 - 📚 Các flashcard được tạo theo từng học phần, giúp quản lí flashcard dễ dàng hơn.  
 - 💾 Lưu dữ liệu offline tự động.    
-- 🎯 Giao diện thân thiện, responsive trên desktop và mobile.
+- 🎯 Giao diện đơn giản, thân thiện, dễ sử dụng.
 
 ---
 
@@ -69,7 +69,7 @@ My_Flashcard/
 ---
 
 ## Những điểm cần cải thiện và mở rộng
-- 🛠️ Cải thiện giao diện cho người dùng
+- 🛠️ Cải thiện giao diện cho người dùng, và design responsive cho mobile
 - ☹️ Web còn tình trạng xử lí dữ liệu chậm khi điều hướng trang
 - ⚠️ Web có những bug tiềm ẩn cho giao diện mà chưa kịp xử lí khiến người dùng khó chịu
 - 🛠️ Thêm chức năng sửa học phần
@@ -77,7 +77,7 @@ My_Flashcard/
 - 🔧 Thêm backend để lưu trữ flashcard
 - ⚙️ Thêm tính năng dark mode cho giao diện
 - 💡 Thêm tính năng sắp xếp học phần gần đây cho trang chủ
-- 💡 Thêm tính năng sắp xếp học phần theo lựa chọn người dùng ở trang thư viện 
+- 💡 Thêm tính năng sắp xếp học phần theo bảng chữ cái, thời gian,... ở trang thư viện 
 
 --- 
 
