@@ -61,5 +61,5 @@ function SaveFlashcard(){
         const definition = card.querySelector(".flashcard-define .flashcard-text").value;
         store.add({SectionTitle, term, definition});
     }
-    window.location.assign("../Home/index.html");
+    window.location.assign("../../../../index.html");
 }

@@ -17,7 +17,3 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
 });
-
-function NewFlashCard(){
-    window.location.assign("../../pages/New_Study_Section/NewStudySection.html");
-}

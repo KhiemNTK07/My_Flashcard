@@ -41,11 +41,3 @@ function updateSection(SectionTitle, count){
     container.appendChild(template);
 }
 
-document.addEventListener("click", function(event){
-    if (event.target.closest(".delete-section")) return;
-    const card = event.target.closest(".card");
-    if (!card) return;
-    const section = card.querySelector(".card-title").innerText;
-    const link = "../../pages/Study_Section/StudySection.html?section=" + section;
-    window.location.assign(link);
-});
